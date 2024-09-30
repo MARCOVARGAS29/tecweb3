@@ -1,29 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PAGINA</title>
-    <link rel = "stylesheet" href ="estilos1.css">
+    <title>Elementos Genéricos - Solo `div` y `span`</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-        <header class = "header", style="background-color: cadetblue;">
-            <h1>HEADER</h1>
-            <nav class = "nav", style="background-color: cornflowerblue;">
-                <ul>UNO</ul>
-                <ul>DOS</ul>
-                <ul>TRES</ul>
-            </nav>
-        </header>
-        <aside class= "aside-left", style="background-color: coral;">aside-left</aside>
-        <main class = "main", style="background-color: lightgreen;">
-            main
-            <article style="background-color: pink;">
-                <section>section1</section>
-                <section>section2</section>
-            </article>
-        </main>
-        <aside class ="aside-right", style="background-color: coral;">aside-right</aside>
-        <footer class = "footer", style="background-color: aqua;">footeer</footer>
+
+<div class="header">
+    <span class="title">Elementos Genéricos - Solo `div` y `span`</span>
+</div>
+
+<div class="nav">
+    <div><a href="index.html">Inicio</a></div>
+    <div><a href="semanticos.html">Elementos Semánticos</a></div>
+    <div><a href="textos.html">Elementos de Texto</a></div>
+    <div><a href="imagenes.html">Imágenes</a></div>
+    <div><a href="tablas.html">Tablas</a></div>
+</div>
+
+<div class="container">
+    <div class="sidebar-left">
+        <span>Ir a otras páginas:</span>
+        <ul>
+            <li><a href="semanticos.html">Elementos Semánticos</a></li>
+            <li><a href="textos.html">Elementos de Texto</a></li>
+            <li><a href="imagenes.html">Imágenes</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div><span>Encabezados</span></div>
+        <div><span><strong>Encabezado 1:</strong> <span>Contenido en un `div`</span></span></div>
+        <div><span><strong>Encabezado 2:</strong> <span>Otro contenido en un `div`</span></span></div>
+        <div><span><strong>Encabezado 3:</strong> <span>Más contenido en un `div`</span></span></div>
+
+        <div><span>Párrafos</span></div>
+        <div><span>Este es un <span>párrafo</span> de ejemplo, todo en `div` y `span`.</span></div>
+        <div><span>Otro párrafo dentro de un <span>`div`</span> y `span`.</span></div>
+
+        
+
+        
+
+        
+    </div>
+
+    <div class="sidebar-right">
+        <span>Ir a otras páginas:</span>
+        <ul>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="semanticos.html">Elementos Semánticos</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="footer">
+    <span>© 2024 Mi Proyecto TecWeb</span>
+</div>
+
 </body>
 </html>
