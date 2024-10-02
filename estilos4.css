@@ -1,0 +1,70 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fondo claro */
+    color: #333;
+}
+
+header {
+    background-color: #004D98; /* Azul oscuro del FC Barcelona */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para la navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #A50044; /* Granate del FC Barcelona */
+}
+
+nav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #FFCC00; /* Amarillo del FC Barcelona */
+    color: #004D98; /* Cambia el texto a azul oscuro al pasar el ratón */
+}
+
+/* Estilos para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #004D98; /* Borde azul oscuro */
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #A50044; /* Fondo granate para encabezados */
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff; /* Fondo blanco para las celdas */
+    color: #333;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #A50044; /* Granate */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

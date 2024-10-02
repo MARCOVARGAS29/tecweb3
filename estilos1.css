@@ -1,0 +1,102 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Estilos para el encabezado con "FC Barcelona" */
+header h1 {
+    background-color: #004D98; /* Azul oscuro del FC Barcelona */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+/* Estilos para el nav debajo del encabezado */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #A50044; /* Granate del FC Barcelona */
+}
+
+nav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #FFCC00; /* Amarillo del FC Barcelona */
+    color: #004D98; /* Cambia el texto a azul oscuro al pasar el ratón */
+}
+
+/* Layout Santo Grial */
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px; /* Columnas fijas para los asides */
+    grid-gap: 0; /* Elimina el espacio entre las columnas */
+    padding: 0;
+    width: 100%;
+    height: 100vh; /* Ocupa el 100% del alto de la ventana */
+}
+
+/* Estilos para los aside (barras laterales) */
+.sidebar-left,
+.sidebar-right {
+    background-color: #A50044; /* Granate */
+    color: white;
+    padding: 20px;
+    height: 100%; /* Ocupar toda la altura del contenedor */
+}
+
+/* Estilo para el contenido principal */
+.content {
+    background-color: #FFF;
+    padding: 20px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+footer {
+    background-color: #FFCC00; /* Amarillo para contraste */
+    color: #004D98;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para listas y enlaces */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px 0;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: #004D98; /* Azul oscuro */
+}
+
+h2 {
+    margin-top: 20px;
+}

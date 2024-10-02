@@ -1,0 +1,86 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fondo claro */
+    color: #333;
+}
+
+header {
+    background-color: #004D98; /* Azul oscuro del FC Barcelona */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para la navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #A50044; /* Granate del FC Barcelona */
+}
+
+nav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #FFCC00; /* Amarillo del FC Barcelona */
+    color: #004D98; /* Cambia el texto a azul oscuro al pasar el ratón */
+}
+
+/* Estilos para el escudo en ASCII */
+.escudo-ascii {
+    background-color: #FFF;
+    border: 2px solid #004D98; /* Borde azul oscuro */
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.escudo-ascii h2 {
+    color: #A50044; /* Granate */
+}
+
+/* Citas y figuras */
+figure {
+    margin: 20px 0;
+    padding: 15px;
+    border-left: 5px solid #A50044; /* Borde izquierdo granate */
+    background-color: #FFF;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+}
+
+figcaption {
+    text-align: right;
+    color: #004D98; /* Azul oscuro */
+    font-weight: bold;
+}
+
+/* Sección de fórmula */
+section h2 {
+    color: #004D98; /* Azul oscuro */
+}
+
+section p {
+    margin: 15px 0;
+}
+
+/* Pie de página */
+footer {
+    background-color: #A50044; /* Granate */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
